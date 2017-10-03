@@ -69,10 +69,12 @@
                     .append('<br/>')
                     .append('Please select slides or individual elements.');
               }
+              return false;
              })
             .withFailureHandler(function(msg, element) {
               element.disabled = false;
               $('#error').text('Something went wrong. Please check the add-on logs.');
+              return false;
             })
             .withUserObject(this)
             .translateSelectedElements($('input[name=dest]:checked').val());

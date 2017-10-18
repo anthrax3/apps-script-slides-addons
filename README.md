@@ -1,13 +1,9 @@
-# Quickstart: Add-on for Google Slides
+# Quickstarts: Add-ons for Google Slides
 
 A sample Google Apps Script add-ons for Google Slides.
 
-## Translate
-This add-on translates text in selected slides or elements from one language to
-another.
+## [Translate](https://developers.google.com/apps-script/guides/slides/samples/translate)
+This add-on translates selected text from one language to another.
 
-## Progress
+## [Progress Bars](https://developers.google.com/apps-script/guides/slides/samples/progress-bar)
 This add-on adds a progress bar to your presentation.
-
-See the [5-minute quickstart](
-https://developers.google.com/apps-script/quickstart/slides) for more details.
